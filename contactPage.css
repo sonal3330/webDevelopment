@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:cornsilk;
+}
+
+.contactForm input {
+  border:2px solid black;
+}
+
+.contactForm label {
+  font-size: 1vw;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.SubscribeButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40%;
+  font-weight: bold;
+}
+
+.SubscribeButton:hover {
+  background-color: green;
+  opacity: 0.6;
+  color:black;
+  font-weight: bold;
+}
